@@ -6,7 +6,7 @@ const readlineInterface = readline.createInterface(
     process.stdout
 );
 
-function ask(questionText) {
+function ask(questionText) { // my comment
     return new Promise((resolve, reject) => {
         readlineInterface.question(questionText, resolve);
     });
